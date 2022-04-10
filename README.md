@@ -3,8 +3,10 @@ Praktikum Probstat 1
 Moh Akmal Ali Dzikri
 5025201204
 
+## Soal Praktikum
+
 Soal
-1. Distribusi Geometrik
+### 1. Distribusi Geometrik
 
 #### 1.a. Mencari peluang distribusi geometrik dengan x = 3, p = 0.2 dengan menggunakan `dgeom`
 ```
@@ -25,13 +27,13 @@ sedangkan 1.b merupakan nilai dari simulasi ketika diambil dengan 10000 data ran
 dan ternyata hasil nya mendekati nilai exact nya
 
 #### 1.d. Membuat histogram distribusi geometrik
-![Histogram Distribusi Geometrik] (https://github.com/akmalali17/P1_Probstat_F_5025201204/blob/main/1d.png)
+![Histogram Distribusi Geometrik](https://github.com/akmalali17/P1_Probstat_F_5025201204/blob/main/1d.png)
 
 Referensi : https://rpubs.com/mpfoley73/458721
 #### 1.e. Nilai rataan dapat dicari dengan `μ = 1/p` sedangkan varian `σ² = 1-p/p^2` 
 
 Soal 
-2. Distribusi Binominal
+### 2. Distribusi Binominal
 
 #### 2.a. Mencari peluang distribusi binominal dengan n = 4, size = 20, p = 0.2 dengan menggunakan `dbinom`
 ```
@@ -41,12 +43,12 @@ hasil outputnya 0.21819
 
 #### 2.b. Membuat histogram distribusi binominal
 ```x <- rbinom(4, 20, 0.2)```
-![Histogram Distribusi Binominal] (https://github.com/akmalali17/P1_Probstat_F_5025201204/blob/main/2b.png)
+![Histogram Distribusi Binominal](https://github.com/akmalali17/P1_Probstat_F_5025201204/blob/main/2b.png)
 
 #### 2.c. Nilai rataan dapat dicari dengan `μ = n*p` sedangkan varian `σ² = npq` 
 
 Soal 
-3. Distribusi Poisson
+### 3. Distribusi Poisson
 
 #### 3.a. Mencari peluang distribusi poisson dengan x = 6, lamba = 4.5 dengan menggunakan `dpois`
 ```
@@ -65,7 +67,7 @@ pada soal a adalah nilai exactnya, sedangkan soal b itu adalah nilai simulasi ya
 #### 3.d. Nilai rataan dapat dicari dengan `μ = λ` dan varian `σ² = λ` 
 
 Soal 
-4. Distribusi Chi-Square
+### 4. Distribusi Chi-Square
 
 #### 4.a. Mencari peluang distribusi chi-square dengan x = 2, df = 10 dengan menggunakan `dchisq`
 ```
@@ -83,9 +85,9 @@ x <- rchisq(100, 10)
 
 
 Soal 
-5. Distribusi Eksponensial
+### 5. Distribusi Eksponensial
 
-#### 5.a. Mencari peluang distribusi eksponensial dengan n = 10, rate = 3 dengan menggunakan `rexp`
+### 5.a. Mencari peluang distribusi eksponensial dengan n = 10, rate = 3 dengan menggunakan `rexp`
 ```
 rexp(10, 3)
 ```
@@ -112,7 +114,7 @@ x1 <- rexp(n, 3)
 
 
 Soal 
-6. Distribusi Normal
+### 6. Distribusi Normal
 
 #### 6.a. Mencari peluang distribusi normal dengan data acak dengan syarat P(X1 ≤ x ≤ X2) dengan menggunakan `rnorm`
 ```
