@@ -55,7 +55,7 @@ dpois(6, 4.5)
 hasil outputnya 0.12812
 
 #### 3.b. Membuat histogram distribusi poisson
-![Histogram Distribusi Poisson] (https://github.com/akmalali17/P1_Probstat_F_5025201204/blob/main/3b.png)
+![Histogram Distribusi Poisson](https://github.com/akmalali17/P1_Probstat_F_5025201204/blob/main/3b.png)
 
 Referensi : https://bookdown.org/gabriel_butler/ECON41Labs/tutorial-5-the-poisson-distribution.html 
 
