@@ -7,7 +7,7 @@ Soal
 1. Distribusi Geometrik
 
 1 a. mencari peluang  distribusi geometrik dengan x=3, dan p=0.20 dengan ```dgeom``` 
-dgeom(3, 0.2)
+`dgeom(3, 0.2)`
 hasil dari outputnya 0.1024
 
 1.b. Mencari mean dengan data random berjumlah 10000, dimana hasil dari distrubusi geometriknya 3
