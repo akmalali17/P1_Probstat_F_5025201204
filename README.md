@@ -27,6 +27,7 @@ dan ternyata hasil nya mendekati nilai exact nya
 #### 1.d. Membuat histogram distribusi geometrik
 
 
+
 Referensi : https://rpubs.com/mpfoley73/458721
 #### 1.e. Nilai rataan dapat dicari dengan `μ = 1/p` sedangkan varian `σ² = 1-p/p^2` 
 
@@ -124,7 +125,7 @@ Lalu digambarkan dengan grafik menggunakan `plot()`
 ```
 plot(z_score, type = 'l', col='red')
 ```
-![Grafik Plot](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal6.a.PNG)
+
 
 #### 6.b. Membuat histogram distribusi chi-square
 ```
@@ -133,7 +134,6 @@ hist(data,
      breaks = 50)
  ```
 
-![Histogram Distribusi Normal](https://github.com/fshaaa/P1_Probstat_F_5025201051/blob/main/screenshot/soal6.b.PNG)
 
 #### 6.c. Nilai varian dapat dicari dengan `σ² = var(data)`
 
