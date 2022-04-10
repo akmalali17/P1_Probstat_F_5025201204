@@ -6,7 +6,7 @@ Moh Akmal Ali Dzikri
 Soal
 1. Distribusi Geometrik
 
-1 a. mencari peluang  distribusi geometrik dengan x=3, dan p=0.20 dengan dgeom 
+1 a. mencari peluang  distribusi geometrik dengan x=3, dan p=0.20 dengan ```dgeom``` 
 dgeom(3, 0.2)
 hasil dari outputnya 0.1024
 
